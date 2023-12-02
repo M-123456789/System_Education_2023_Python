@@ -10,7 +10,7 @@ import threading
 from google.colab import files
 
 global connection_string #глобальная переменная строка подключения 
-connection_string = 'postgresql://mg123456%40gmail.com:************@ep-old-cell-77818429.eu-central-1.aws.neon.tech/MagazinoCRM_db?sslmode=require' #ваша строка подключения к БД
+connection_string = 'postgresql://mg123456%40gmail.com:FTPjaeZ8I5El@ep-old-cell-77818429.eu-central-1.aws.neon.tech/MagazinoCRM_db?sslmode=require' #ваша строка подключения к БД
 
 #создание директории для сохранения отчетов
 !mkdir -p /content/reports
